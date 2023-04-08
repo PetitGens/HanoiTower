@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 #include "stack.h"
-#include "hanoi_engine.h"
 
 int main(){
-    /*hanoiStack stack = initHanoiStack(3);
+    hanoiStack stack = initHanoiStack(3);
 
     printStack(stack);
 
@@ -29,10 +28,7 @@ int main(){
 
     printStack(stack);
 
-    destroyHanoiStack(stack);*/
-
-    hanoiGame game = initGame(10);
-    printGame(game);
+    destroyHanoiStack(stack);
 
     return 0;
 }
